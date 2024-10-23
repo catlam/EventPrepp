@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import CustomButton from './components/atoms/CustomButton';
+import Home from './components/pages/Home';
+import Navbar from './components/organisms/Navbar';
+import Footer from './components/organisms/Footer';
 function App() {
   return (
-    <div className="flex flex-row items-center justify-center">
-     <CustomButton title={'sample button'}/>
+    <div>
+      <Navbar/>
+     <Home/>
+     <Footer/>
     </div>
   );
 }
